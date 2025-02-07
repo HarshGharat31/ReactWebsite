@@ -203,12 +203,47 @@ const jwt=localStorage.getItem("jwt")
                 onChange={handleChange}
                 label="Third Level Category"
               >
+                {/* clothing */}
                 <MenuItem value="top">Tops</MenuItem>
                 <MenuItem value="women_dress">Dresses</MenuItem>
-                <MenuItem value="t-shirts">T-Shirts</MenuItem>
+                <MenuItem value="women_t-shirt">Women T-Shirts</MenuItem>
                 <MenuItem value="saree">Saree</MenuItem>
                 <MenuItem value="lengha_choli">Lengha Choli</MenuItem>
-              </Select>
+                <MenuItem value="women_jeans">Women Jeans</MenuItem>
+                <MenuItem value="sweater">Women Sweater</MenuItem>
+                <MenuItem value="jacket">Women Jacket</MenuItem>
+                <MenuItem value="kurtas">Women Kuetas</MenuItem>
+                <MenuItem value="gouns">Gouns</MenuItem>
+
+
+                {/* women accessaries */}
+                <MenuItem value="watch">Women watch</MenuItem>
+                <MenuItem value="wallet">Women Wallet</MenuItem>
+                <MenuItem value="bag">Women Bag</MenuItem>
+                <MenuItem value="sunglasse">Women Sunglass</MenuItem>
+                <MenuItem value="hat">Women Hats</MenuItem>
+                <MenuItem value="belt">Women Belt</MenuItem>
+
+             
+                {/* mens clothing */}
+                <MenuItem value="men_jeans">Men Jeans</MenuItem>
+                <MenuItem value="mens_kurta">Mens Kurta</MenuItem>
+                <MenuItem value="shirt">Shirt</MenuItem>
+                <MenuItem value="t-shirt">T-Shirts</MenuItem>
+                <MenuItem value="men_activewear">Activewear</MenuItem>
+                <MenuItem value="men_jacket">Men Jacket</MenuItem>
+                <MenuItem value="men_sweater">Men Sweater</MenuItem>
+
+                {/* mens accessa */}
+                <MenuItem value="men_watch">Men watch</MenuItem>
+                <MenuItem value="men_wallet">Men Wallet</MenuItem>
+                <MenuItem value="men_bag">Men Bag</MenuItem>
+                <MenuItem value="men_sunglass">Men Sunglass</MenuItem>
+                <MenuItem value="men_hat">Men Hats</MenuItem>
+                <MenuItem value="men_belts">Men Belt</MenuItem>
+
+
+                </Select>
             </FormControl>
           </Grid>
           <Grid item xs={12}>
